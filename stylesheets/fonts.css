@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Metamorphous';
+  src: url('../assets/fonts/metamorphous.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('../assets/fonts/Helvetica.ttc') format('truetype');
+}
+
+p,
+span {
+  font-family: 'Helvetica', sans-serif;
+  font-style: italic;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Metamorphous', sans-serif;
+}

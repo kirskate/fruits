@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon/favicon.svg">
+  <title>Стать другом</title>
+
+  <link rel="stylesheet" href="./stylesheets/form/form.css">
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="merch.html">Мерч</a></li>
+        <li><a href="news.html">Новости</a></li>
+        <li><a href="https://kirskate.github.io/plodovaya/" target="_blank">Прийти</a></li>
+        <li class="li__active"><a href="form.html">Стать другом</a></li>
+      </ul>
+    </header>
+
+    <div class="title">
+      <h1>Станьте участником закрытого клуба </h1>
+      <p>Получайте комплименты от бармена, пригласительные на дегустации и уникальные сезонные бонусы</p>
+    </div>
+
+    <form class="friend-form" id="friendForm">
+      <label>
+        ФИО
+        <input type="text" name="name" required>
+      </label>
+    
+      <label>
+        Номер телефона
+        <input type="tel" name="phone" required>
+      </label>
+    
+      <label class="checkbox-label">
+        <input type="checkbox" required>
+        <span>Я согласен с политикой конфиденциальности</span>
+      </label>
+    
+      <button type="submit">Оставить заявку</button>
+    </form>
+    
+    <div class="modal" id="modal">
+      <div class="modal__content">
+        <button class="modal__close" type="button" id="modalClose">×</button>
+        <h2>Заявка отправлена!</h2>
+        <p>Мы скоро свяжемся с вами.</p>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer__1">
+        <p>Партнеры</p>
+        <div class="partners__imgs">
+          <img src="./assets/icons/partner-1.svg" alt="партнер">
+          <img src="./assets/icons/partner-2.svg" alt="партнер">
+          <img src="./assets/icons/partner-3.svg" alt="партнер">
+          <img src="./assets/icons/partner-4.svg" alt="партнер">
+        </div>
+      </div>
+      <div class="footer__2">
+        <p>
+          <span>Телефон: </span><br>
+          +7 987 654 32 10 <br>
+          <span>Часы работы: </span><br>
+          Понедельник – Воскресенье <br>
+          с 12:00 до 5:00
+        </p>
+      </div>
+      <div class="footer__3">
+        <p>
+          <span>Почта: </span><br>
+          barvlesu@mail.com <br>
+          <span>Адрес: </span><br>
+          Королевство Туманов, <br>у шестого дуба после ручья
+        </p>
+      </div>
+    </footer>
+  </div>
+  <script src="./javascript/form.js"></script>
+</body>
+</html>
