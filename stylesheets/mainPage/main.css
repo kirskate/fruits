@@ -146,7 +146,7 @@ header {
   text-decoration: underline;
 }
 .desc p {
-  font-family: 'Metamorphous',sans-serif;
+  font-family: 'Helvetica',sans-serif;
   font-size: clamp(16px, 2vw, 24px);
   color: #231C16;
 }
