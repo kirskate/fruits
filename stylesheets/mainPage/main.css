@@ -135,7 +135,7 @@ header {
   background-color: #FDF6EC;
 }
 .desc h3 {
-  font-family: 'Metamorphous',sans-serif;
+  font-family: 'Helvetica',sans-serif;
   font-size: clamp(36px, 3vw, 64px);
   color: #231C16;
   width: 45%;
