@@ -8,8 +8,7 @@
   src: url('../assets/fonts/Helvetica.ttc') format('truetype');
 }
 
-p,
-span {
+p {
   font-family: 'Helvetica', sans-serif;
   font-style: italic;
 }
@@ -19,6 +18,7 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+span {
   font-family: 'Metamorphous', sans-serif;
 }
